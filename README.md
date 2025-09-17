@@ -1,6 +1,14 @@
 # Geopandas Plotly Express Naples
 
-This repository contains a GIS project for Naples, Italy, showcasing geospatial analysis using **Geopandas**, **Matplotlib**, **Contextily**, and **Plotly Express**. The project includes:  
+This repository contains a GIS project for Naples, Italy, showcasing geospatial analysis using **Geopandas**, **Matplotlib**, **Contextily**, and **Plotly Express**. 
+The spatial datasets used in this project were originally downloaded from Overpass Turbo (https://overpass-turbo.eu/). The area was zoomed to the metropolitan area of Naples and two queries were run using the keywords tourism=hotel and leisure=park to obtain Hotels.geojson and Parks.geojson. These files were subsequently refined in ArcGIS Pro:
+
+For hotels, only those located within the administrative boundaries of the City of Naples and with a recorded name in the attribute table were retained (saved as the shapefile Naples_Hotels_32633 in the Naples_geopandas folder).
+
+For parks, only polygons with an area greater than or equal to 0.8 hectares were selected.
+
+⚠️ Disclaimer: This analysis is intended solely as an example of the capabilities of Python geospatial libraries such as Geopandas, Matplotlib, Contextily, and Plotly Express. It does not represent a complete or official inventory of all hotels and green areas in Naples.
+The project includes:  
 
 - A point shapefile of the main hotels in Naples.  
 - A polygon shapefile of the main urban parks in Naples.  
