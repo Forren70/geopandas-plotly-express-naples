@@ -14,15 +14,15 @@ This repository contains a GIS project for Naples, Italy, demonstrating geospati
 
 ### Map 1: Parks and Hotels in Naples
 
-![Map 1](screenshots/map 1.png)
+![Map 1](screenshots/map%201.png)
 
 ### Map 2: 150m Buffer Analysis
 
-![Map 2](screenshots/map 2.png)
+![Map 2](screenshots/map%202.png)
 
 ### Map 3: Suitable Hotels (within 150 m from Parks)
 
-![Map 3](screenshots/map 3.png)
+![Map 3](screenshots/map%203.png)
 
 ## Dependencies
 
@@ -36,10 +36,11 @@ This project uses the following Python libraries:
 ## How to Run the Scripts
 
 1. Make sure all the shapefiles are in the `Naples_geopandas` folder.
-2. Place the screenshots folder `screenshots` in the same repository if you want to view the generated maps.
+2. Place the `screenshots` folder in the same repository if you want to view the generated maps.
 3. Run the scripts in this order:
 
-   ```bash
-   python geopandas-plotly-express-naples.py
-   python geopandas-plotly-express-naples-buffer.py
-   python geopandas-plotly-express-naples-intersected-ho
+```bash
+python geopandas-plotly-express-naples.py
+python geopandas-plotly-express-naples-buffer.py
+python geopandas-plotly-express-naples-intersected-hotels.py
+
