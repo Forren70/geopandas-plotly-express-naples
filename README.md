@@ -17,7 +17,9 @@ The project includes:
 - Map 1: a basic map showing all hotels and parks.  
 - Map 2: a 150-meter buffer around parks, visualizing all hotels in relation to this buffer.  
 - Map 3: the intersection showing “suitable hotels” (5 hotels in total) located within 150 meters of a park, ideal for visitors seeking accommodation close to green urban areas.  
-- Three Python scripts to generate these maps.  
+- Three Python scripts to generate these maps.
+- Hotels.geojson
+- Parks.geojson
 - All geospatial datasets and generated map images.  
 
 ## Contents
